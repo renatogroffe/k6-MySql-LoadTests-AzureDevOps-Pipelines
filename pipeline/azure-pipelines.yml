@@ -31,8 +31,6 @@ variables:
   vmImageName: 'ubuntu-latest'
 
   # Variáveis para execução dos testes de carga
-  #DatabaseTestsConnection: 'Server=localhost; Port=3366; Database=DBTests; Uid=root; Pwd=MySql2024!; SslMode=none;'
-  #DatabaseTestsConnection: 'root:MySql2024!@tcp(127.0.0.1:3306)/DBTests'
   DatabaseTestsConnection: 'root:MySql2024!@tcp(127.0.0.1:32000)/dbtests'
   Path_ScriptsSqlServer: './scripts/DBTests.sql'
 
