@@ -51,7 +51,6 @@ stages:
         cd /usr/bin
         ls
       displayName: Exibir arquivos do diretorio /usr/bin (utilitarios instalados)
-    #    /usr/bin/mysql
     - task: replacetokens@5
       inputs:
         targetFiles: '$(testsDirectory)/$(loadTestsScript)'
